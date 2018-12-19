@@ -253,6 +253,7 @@ body {
   }
 
   #about .bg-skew {
+    height: 780px;
     margin-left: 1%;
   }
 
@@ -317,6 +318,14 @@ body {
   #portfolio #proj1 .grid .effect-jazz {
     height: auto;
     width: 100%;
+  }
+
+  #portfolio figure.effect-jazz figcaption::after {
+    visibility: hidden;
+  }
+
+  #portfolio .grid figcaption {
+   overflow: scroll;
   }
 
   #portfolio #proj2 {
@@ -416,6 +425,10 @@ body {
   }
 
   #contact .wrapper {
+    visibility: hidden;
+  }
+
+  #contact .ease {
     visibility: hidden;
   }
 

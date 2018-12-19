@@ -115,7 +115,7 @@ h2 {
 /* For some effects it will show as a button */
 .grid figure figcaption > a {
 	z-index: 10;
-	text-indent: 200%;
+  text-indent: 200%;
 	white-space: nowrap;
 	font-size: 1.5em;
 	opacity: 0;
@@ -125,7 +125,7 @@ h2 {
 
 .grid figure p {
 	letter-spacing: 1px;
-	font-size: 70%;
+  font-size: 70%;
 }
 
 img {
@@ -146,7 +146,7 @@ figure.effect-jazz figcaption::after,
 figure.effect-jazz img,
 figure.effect-jazz p {
 	-webkit-transition: opacity 0.9s, -webkit-transform 0.9s;
-	transition: opacity 0.9s, transform 0.9s;
+  transition: opacity 0.9s, transform 0.9s;
 }
 
 figure.effect-jazz figcaption::after {
