@@ -253,7 +253,7 @@ body {
   }
 
   #about .bg-skew {
-    height: 780px;
+    height: 795px;
     margin-left: 1%;
   }
 
@@ -364,6 +364,7 @@ body {
     height: auto;
     width: 100%;
     float: none;
+    border: solid tomato .25px;
     background: none;
     display: inline-block;
     margin-top: 20px;
@@ -407,16 +408,12 @@ body {
     visibility: hidden;
   }
 
-  #contact .content {
-    margin-left: 0px;
+  #contact .contact-main {
+    height: 690px;
   }
 
-  #contact .contact-card {
-    height: auto;
-    width: 100%;
-    background-color: #222;
-    margin-top: 5px;
-    display: inline-block;
+  #contact #form-main {
+    padding-top: 0px;
   }
 
   #portfolio .hidden-message {
@@ -425,6 +422,7 @@ body {
   }
 
   #contact .wrapper {
+    margin-top: -200px;
     visibility: hidden;
   }
 
