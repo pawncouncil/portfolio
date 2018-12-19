@@ -2,10 +2,13 @@
 
 
 #ninja-wrapper{
-  height: 714px;
-  width: 970px;
-  margin-top: 30px;
-  margin-left: 20%;
+  /* height: 714px;
+  width: 970px; */
+  height: auto;
+  width: 100%;
+  margin: 2%;
+  /* margin-top: 30px;
+  margin-left: 20%; */
   display: inline-block;
   background-color: grey;
   box-shadow: 28px 34px 11px #161616
@@ -13,7 +16,7 @@
 
 .ninja-header{
   height: 100px;
-  width: 970px;
+  width: 100%;
   display: inline-block;
   background-color: black;
 }
@@ -54,15 +57,15 @@
 }
 
 .main-img img{
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
   box-shadow: 16px 18px 25px black;
-  position: fixed;
+  position: relative;
 }
 
 .footer{
   height: 100px;
-  width: 970px;
+  width: 100%;
   background-color: black;
   text-align: center;
 }
@@ -81,7 +84,7 @@ button{
 }
 
 h2 {
-  margin-left: 63%;
+  margin-left: 46%;
   color: #000000;
   text-shadow: 0 0 3px #960100;
   font-family: 'Nothing You Could Do', cursive;
