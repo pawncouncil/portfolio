@@ -1,0 +1,362 @@
+.contact-main {
+  height: 775px;
+  width: 100%;
+  margin-top: -1px;
+  background-color: #222;
+  text-align: center;
+}
+
+.content {
+  width: 96%;
+  height: 82%;
+  margin-left: 2%;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+#feedback-page{
+	text-align:center;
+}
+
+#text-feedback{
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color:white;
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	padding-top:30px;
+}
+
+#form-div {
+  z-index: 1;
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+  width: 450px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.feedback-input {
+  opacity:0.9;
+  color: #d5d5d5;
+	font-family: 'Open Sans Condensed', sans-serif;
+  font-weight:bold;
+	font-size: 20px;
+  line-height: 22px;
+  border-radius: 4px;
+	background-color: #222;
+  border: 4px solid tomato;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.feedback-input:focus{
+	background: #919191;
+	box-shadow: 0;
+	border: 4px solid tomato;
+	color: #222;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+	line-height: 150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color: rgb(48, 47, 47);
+}
+
+#button-orange{
+  font-family: 'Open Sans Condensed', sans-serif;
+	float:left;
+	width: 100%;
+  border: tomato solid 4px;
+  border-radius: 4px;
+	cursor:pointer;
+	background-color: #222;
+	color:#d5d5d5;
+  font-size:24px;
+  font-weight: bold;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#button-orange:hover{
+  background-color: tomato;
+  border: tomato solid 4px;
+  color: #222;
+  font-weight: bold;
+}
+
+.submit:hover {
+	color: #222;
+}
+
+.ease {
+	width: 0px;
+	height: 85px;
+  background-color: tomato;
+  border-radius: 4px;
+	-webkit-transition: .5s ease;
+	-moz-transition: .5s ease;
+	-o-transition: .5s ease;
+	-ms-transition: .5s ease;
+	transition: .5s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:tomato;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 0%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
+h1 {
+  color: #D0D0D0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  margin-top: 65px;
+  text-shadow: 1px 5px 8px #222;
+  display: inline-block;
+}
+
+.wrapper {
+  height: 200px;
+  width: 200px;
+  margin-top: -54px;
+  margin-left: 63px;
+  border-radius: 50%;
+  float: right;
+  background-color: #222;
+  background: radial-gradient(circle at 50px 50px, tomato, #222);
+}
+
+
+
+.wrapper ul {
+  list-style: none;
+  margin-top: 5px;
+  z-index: 10;
+  margin-left: 123px;
+  margin-bottom: 5px;
+}
+
+.wrapper ul li {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0px 0px 0px 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid #D8E2DC;
+  float: left;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li img {
+  width: 37px;
+  height: 37px;
+  opacity: 0.65;
+  margin-top: 1px;
+}
+
+.wrapper ul li .fa {
+  color: #D8E2DC;
+  margin-top: 2px;
+  margin-left: 0px;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li .fa-resume {
+  color: #D8E2DC;
+  margin-top: -1.5px;
+  margin-left: -1.25px;
+  transition: all 0.5s ease;
+}
+
+.wrapper ul li i {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.wrapper ul li.linkedin {
+  margin-top: -1px;
+  margin-left: -41px;
+}
+
+.wrapper ul li.resume {
+  margin-top: 20px;
+  margin-left: -94px;
+}
+
+.wrapper ul li.github {
+  margin-top: 73px;
+  margin-left: -120px;
+}
+
+.fa-2x {
+  font-size: 1.9em;
+}
+
+.fa-2g {
+  margin-top: 1px;
+  font-size: 1.5em;
+}
+
+/*linkedin*/
+.wrapper ul li:hover.linkedin {
+  border: 3px solid #0077B5;
+  box-shadow: 0 0 18px #0077B5;
+  transition: all 0.25s ease;
+}
+
+.wrapper ul li:hover .fa-linkedin {
+  /* color: #0077B5;
+  text-shadow: 0 0 18px #0077B5; */
+  transition: all 0.25s ease;
+}
+
+/* resume */
+.wrapper ul li:hover.resume {
+  border: 3px solid #f4f4f4;
+  box-shadow: 0 0 18px #f4f4f4;
+  transition: all 0.25s ease;
+}
+
+.wrapper ul li:hover .fa-resume {
+  color: #1da1f2;
+  text-shadow: 0 0 18px #1da1f2;
+  transition: all 0.25s ease;
+}
+/* github */
+.wrapper ul li:hover.github {
+  border: 3px solid #a380db;
+  box-shadow: 0 0 18px #a380db;
+  transition: all 0.25s ease;
+}
+
+.wrapper ul li:hover .fa-github {
+  /* color: #a380db;
+  text-shadow: 0 0 20px #a380db; */
+  transition: all 0.25s ease;
+}
+
+#stage {
+  vertical-align: top;
+  overflow: hidden;
+  float: left;
+}
+
+#stage a {
+  position: absolute;
+}
+#stage a img {
+  width: 250px;
+  height: 250px;
+  margin-left: 0%;
+  z-index: 1000;
+  vertical-align: top;
+  margin-top: -630px;
+  border-radius: 50%;
+  border: 4px solid tomato;
+}
+
+#stage a:nth-of-type(1) {
+  animation-name: fader;
+  animation-delay: 4s;
+  animation-duration: 1s;
+  z-index: 20;
+}
+#stage a:nth-of-type(2) {
+  z-index: 10;
+}
+#stage a:nth-of-type(n+3) {
+  display: none;
+}
+
+@keyframes fader {
+  from { opacity: 1.0; }
+  to   { opacity: 0.0; }
+}
+
+footer {
+  width: 100%;
+  height: 55px;
+  border-radius: 4px;
+
+  background-color: rgb(44, 44, 44);
+  text-align: center;
+  display: inline-block;
+}
+
+footer p {
+  font-size: .8em;
+  color:tomato;
+  margin-top: 21px;
+}

@@ -1,0 +1,428 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  background: #222;
+}
+
+@media(min-width: 880px) and (max-width: 1080px)  {
+
+  #about .aboutMe {
+    height: auto;
+    width: 37%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.35em;
+    color:#D0D0D0;
+    display: inline-block;
+    margin-left: 16%;
+    margin-top: 43px;
+    vertical-align: bottom;
+  }
+
+  #portfolio .portfolio-main {
+    height: 2500px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  #portfolio .portfolio-main-content {
+    width: 96%;
+    height: 84%;
+    border: solid tomato 4px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0px 27.5px 0px 27.5px;
+  }
+
+  #portfolio  #proj1 {
+    height: 466px;
+    width: 490px;
+    float: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0px;
+    overflow: visible;
+  }
+
+  #portfolio #proj2 {
+    height: 466px;
+    width: 490px;
+    float: none;
+    display: inline-block;
+    margin-top: 27px;
+    margin-right: 0px;
+    overflow: visible;
+  }
+
+  #portfolio #proj3 {
+    height: 466px;
+    width: 490px;
+    float: none;
+    display: inline-block;
+    margin-top: 27px;
+    margin-left: 0px;
+    overflow: visible;
+  }
+
+  #portfolio #proj4{
+    height: 466px;
+    width: 490px;
+    float: none;
+    display: inline-block;
+    margin-top: 75px;
+    margin-right: 0px;
+    overflow: visible;
+  }
+
+}
+
+
+@media only screen and (min-width: 761px)and (max-width: 879px) {
+
+  #about .aboutMe {
+    height: auto;
+    width: 37%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3em;
+    color:#D0D0D0;
+    display: inline-block;
+    margin-left: 16%;
+    margin-top: 43px;
+    vertical-align: bottom;
+  }
+
+  #portfolio .portfolio-main {
+    height: 2500px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  #portfolio .portfolio-main-content {
+    width: 96%;
+    height: 84%;
+    border: solid tomato 4px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0px 27.5px 0px 27.5px;
+  }
+
+  #portfolio #proj1 {
+    height: 466px;
+    width: 490px;
+    float: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0px;
+    overflow: visible;
+  }
+
+  #portfolio #proj2 {
+    height: 466px;
+    width: 490px;
+    float: none;
+    display: inline-block;
+    margin-top: 27px;
+    margin-right: 0px;
+    overflow: visible;
+  }
+
+  #portfolio #proj3 {
+    height: 466px;
+    width: 490px;
+    float: none;
+    display: inline-block;
+    margin-top: 27px;
+    margin-left: 0px;
+    overflow: visible;
+  }
+
+  #portfolio #proj4{
+    height: 466px;
+    width: 490px;
+    float: none;
+    display: inline-block;
+    margin-top: 75px;
+    margin-right: 0px;
+    overflow: visible;
+  }
+
+}
+
+#stage {
+ visibility: hidden;
+}
+
+@media(min-width: 635px) and (max-width: 760px){
+
+  #about .big-skew {
+    text-align: center;
+  }
+
+  #about .aboutMe {
+    height: auto;
+    width: 85%;
+    margin-top: -50%;
+    margin-left: 6%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.7em;
+    color:#D0D0D0;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #about .lil-skew {
+    visibility: hidden;
+   }
+   #about .lil-skew img{
+     visibility: hidden;
+   }
+
+   #portfolio .portfolio-main {
+    height: 2500px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  #portfolio .portfolio-main-content {
+    width: 96%;
+    height: 84%;
+    border: solid tomato 4px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0px 27.5px 0px 27.5px;
+  }
+
+  #portfolio #proj1 {
+    height: 466px;
+    width: 490px;
+    float: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0px;
+    overflow: visible;
+  }
+
+  #portfolio #proj2 {
+    height: 466px;
+    width: 490px;
+    float: none;
+    display: inline-block;
+    margin-top: 27px;
+    margin-right: 0px;
+    overflow: visible;
+  }
+
+  #portfolio #proj3 {
+    height: 466px;
+    width: 490px;
+    float: none;
+    display: inline-block;
+    margin-top: 27px;
+    margin-left: 0px;
+    overflow: visible;
+  }
+
+  #portfolio #proj4{
+    height: 466px;
+    width: 490px;
+    float: none;
+    display: inline-block;
+    margin-top: 75px;
+    margin-right: 0px;
+    overflow: visible;
+  }
+
+}
+
+ @media(min-width: 320px) and (max-width: 634px){
+
+  #about {
+    padding-top: 30px;
+  }
+
+  #about .about-main {
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  #about .bg-skew {
+    margin-left: 1%;
+  }
+
+  #about .aboutMe {
+    height: auto;
+    width: 80%;
+    margin-top: -50%;
+    margin-left: 11%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.35em;
+    color:#D0D0D0;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #about .lil-skew {
+    visibility: hidden;
+   }
+   #about .lil-skew img{
+     visibility: hidden;
+   }
+
+   #portfolio {
+    height: 1710px;
+    width: 100%;
+   }
+
+  #portfolio .portfolio-main {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  #portfolio .portfolio-main-content {
+    width: 96%;
+    height: 84%;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0px 27.5px 0px 27.5px;
+  }
+
+  #portfolio #proj1 {
+    height: auto;
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+  }
+
+  #portfolio #proj1 .grid {
+    height: auto;
+    width: 100%;
+    float: none;
+    background: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin: 0px;
+    overflow: hidden;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  #portfolio #proj1 .grid .effect-jazz {
+    height: auto;
+    width: 100%;
+  }
+
+  #portfolio #proj2 {
+    height: auto;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  #portfolio #proj2 .grid {
+    height: auto;
+    width: 100%;
+    float: none;
+    background: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0px;
+    overflow: hidden;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  #portfolio #proj2 .grid .effect-jazz{
+    height: auto;
+    width: 100%;
+  }
+
+  #portfolio #proj3 {
+    height: auto;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  #portfolio #proj3 .grid {
+    height: auto;
+    width: 100%;
+    float: none;
+    background: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0px;
+    overflow: hidden;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  #portfolio #proj3 .grid .effect-jazz{
+    height: auto;
+    width: 100%;
+  }
+
+  #portfolio #proj4 {
+    height: auto;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  #portfolio #proj4 .grid {
+    height: auto;
+    width: 100%;
+    float: none;
+    background: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0px;
+    overflow: hidden;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  #portfolio #proj4 .grid .effect-jazz{
+    height: auto;
+    width: 100%;
+  }
+
+  #portfolio .wrapper {
+    visibility: hidden;
+  }
+
+  #contact .content {
+    margin-left: 0px;
+  }
+
+  #contact .contact-card {
+    height: auto;
+    width: 100%;
+    background-color: #222;
+    margin-top: 5px;
+    display: inline-block;
+  }
+
+  #portfolio .hidden-message {
+    display: inline-block;
+    visibility: hidden;
+  }
+
+  #contact .wrapper {
+    visibility: hidden;
+  }
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  #portfolio .hidden-message {
+    visibility: visible;
+  }
+}
+
+}

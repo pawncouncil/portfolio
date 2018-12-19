@@ -1,0 +1,94 @@
+
+
+
+#ninja-wrapper{
+  height: 714px;
+  width: 970px;
+  margin-top: 30px;
+  margin-left: 20%;
+  display: inline-block;
+  background-color: grey;
+  box-shadow: 28px 34px 11px #161616
+}
+
+.ninja-header{
+  height: 100px;
+  width: 970px;
+  display: inline-block;
+  background-color: black;
+}
+
+.gamename{
+  color: black;
+  font-size: 35px;
+  font-family: sans-serif;
+  display: inline-block;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-left: 30px;
+  text-shadow: 0 0 33px #f50c0c, 0 0 11px #840201;
+}
+
+.ninjastar{
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -121px;
+  margin-top: 142px;
+}
+
+.ninja-main{
+  height: 514px;
+  width: 970px;
+  background-color: darkred;
+}
+
+.main-img{
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin-top: 35px;
+  margin-left: 32px;
+
+}
+
+.main-img img{
+  height: 200px;
+  width: 200px;
+  box-shadow: 16px 18px 25px black;
+  position: fixed;
+}
+
+.footer{
+  height: 100px;
+  width: 970px;
+  background-color: black;
+  text-align: center;
+}
+
+button{
+  height: 60px;
+  width: 180px;
+  color: #820100;
+  background-color: black;
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: solid 2px #820100;
+  box-shadow: 0px 0px 24px 5px #820100;
+}
+
+h2 {
+  margin-left: 63%;
+  color: #000000;
+  text-shadow: 0 0 3px #960100;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 45px;
+}
+
+a {
+  text-decoration: none;
+}
+

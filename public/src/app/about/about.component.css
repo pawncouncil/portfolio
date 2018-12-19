@@ -1,0 +1,75 @@
+#about {
+  width: 100%
+}
+
+.about-main {
+  height: 900px;
+  width: 100%;
+  margin-top: 100px;
+  background-color: #222;
+}
+
+h1 {
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
+  color: #D0D0D0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  margin-top: 17px;
+  margin-left: 47px;
+  text-shadow: 1px 5px 8px #222;
+  display: block;
+}
+
+.lil-skew {
+  -webkit-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 10deg);
+  padding: 0px 0;
+  display: inline-block;
+  height: auto;
+  width: 35%;
+  margin-left: 20px;
+  margin-top: 61px;
+  vertical-align: top;
+}
+
+.lil-skew img{
+  height: auto;
+  width: 100%;
+}
+
+.bg-skew {
+  /* background: tomato; */
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
+  padding: 0px 0;
+  width: 96%;
+  height: 80%;
+  margin-top: 0px;
+  margin-left: 1.75%;
+  border: solid 4px tomato;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.aboutMe {
+  -webkit-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 10deg);
+  height: 400px;
+  width: 435px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
+  color:#D0D0D0;
+  margin-left: 92px;
+  margin-top: 78px;
+  display: inline-block;
+}
+
+.aboutMe a{
+  color: tomato;
+  text-decoration: none;
+}
+
+.aboutMe a:hover {
+  color: #50ffcd;
+}

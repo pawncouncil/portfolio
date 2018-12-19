@@ -1,0 +1,39 @@
+#stage {
+  width: 292px;
+  height: 382px;
+  margin-top: 100px;
+  margin-left: 20px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#stage a {
+  position: absolute;
+}
+#stage a img {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+#stage a:nth-of-type(1) {
+  animation-name: fader;
+  animation-delay: 4s;
+  animation-duration: 1s;
+  z-index: 20;
+}
+#stage a:nth-of-type(2) {
+  z-index: 10;
+}
+#stage a:nth-of-type(n+3) {
+  display: none;
+}
+
+@keyframes fader {
+  from { opacity: 1.0; }
+  to   { opacity: 0.0; }
+}
+
+/* underconstruction */
+
+
